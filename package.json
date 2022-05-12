@@ -1,0 +1,20 @@
+{
+  "name": "wang-emoji-picker",
+  "version": "1.0.1",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build:lib": "vue-cli-service build --target lib  src/components/index.js"
+  },
+  "main": "dist/wang-emoji-picker.umd.min.js",
+  "dependencies": {
+    "core-js": "^3.8.3",
+    "vue": "^2.6.14"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "less": "^4.0.0",
+    "less-loader": "^8.0.0",
+    "vue-template-compiler": "^2.6.14"
+  }
+}
